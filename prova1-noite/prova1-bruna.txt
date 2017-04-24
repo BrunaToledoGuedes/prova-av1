@@ -15,6 +15,7 @@ c-CentOS é Red Hat Enterprice linux e a familia do a-ubuntu é Debian
 Ex.: prova1-alex.txt
 Resposta (Qual comando você utilizou?): 
 mv prova1-2017.txt prova1-bruna.txt
+utilizei o comando mv
 
 Utilizei o comando touch para criar o arquivo prova1-bruna.txt e o mv para
 renomear o arquivo
