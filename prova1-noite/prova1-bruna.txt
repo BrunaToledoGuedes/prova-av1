@@ -14,7 +14,7 @@ c-CentOS é Red Hat Enterprice linux e a familia do a-ubuntu é Debian
 2 - Renomear o arquivo prova1-2017.txt da sua pasta para prova1-seunome.txt . 
 Ex.: prova1-alex.txt
 Resposta (Qual comando você utilizou?): touch prova1-bruna.txt
-mv pasta1-2017.txt prova1-bruna.txt
+mv prova1-2017.txt prova1-bruna.txt
 
 Utilizei o comando touch para criar o arquivo prova1-bruna.txt e o mv para
 renomear o arquivo
