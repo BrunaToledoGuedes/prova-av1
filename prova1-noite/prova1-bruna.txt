@@ -17,8 +17,8 @@ Resposta (Qual comando você utilizou?):
 mv prova1-2017.txt prova1-bruna.txt
 utilizei o comando mv
 
-Utilizei o comando touch para criar o arquivo prova1-bruna.txt e o mv para
-renomear o arquivo
+
+
 
 3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
 sequencia 1, 2 e 3. 
