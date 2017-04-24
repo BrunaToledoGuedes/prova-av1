@@ -1,0 +1,69 @@
+Aluno: Bruna Toledo Guedes Matrícula: 0050009647
+Prova de Laboratorio de Sistemas Operacionais
+Professor: Alex Salgado
+1o. Semestre de 2017   Turno: Noite            AV1
+--------------------------------------------------
+Com relação aos comandos do SO Linux, responda as perguntas abaixo:
+
+
+1 - Quais são as famílias de distruição das seguintes versões de linux:
+a-ubuntu; b-openSUSE e c-CentOS?
+Resposta: A família de distribuição do b-openSUSE é GNU/linux, a família do
+c-CentOS é Red Hat Enterprice linux e a familia do a-ubuntu é Debian 
+
+2 - Renomear o arquivo prova1-2017.txt da sua pasta para prova1-seunome.txt . 
+Ex.: prova1-alex.txt
+Resposta (Qual comando você utilizou?): touch prova1-bruna.txt
+mv pasta1-2017.txt prova1-bruna.txt
+
+Utilizei o comando touch para criar o arquivo prova1-bruna.txt e o mv para
+renomear o arquivo
+
+3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
+sequencia 1, 2 e 3. 
+Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
+Resposta: touch bruna1.txt bruna2.txt bruna3.txt
+Utilizei o comando touch
+
+4 - Listar todos os arquivos vazios a partir da sua pasta principal e 
+direcionar a saida para o terceiro arquivo do item anterior.
+Resposta (Qual comando utilizou?): find . -type f -empty > bruna3.txt
+utilizei o comando find
+
+5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
+3 arquivos criandos anteriormente para esta pasta.
+Resposta (Qual comando utilizou?): mkdir bruna20
+cp bruna1.txt bruna2.txt bruna3.txt bruna20
+
+Usei o comando mkdir para criar a pasta e o comando cp para copiar os
+arquivos na pasta   
+6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
+que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
+Resposta: ls bruna[1-3].txt
+
+7 - Existe um arquivo chamado access.log na sua pasta log. 
+Qual é o ip que aparece no arquivo com mais frequencia e 
+qual ip que aparece no arquivo com menos frequencia?
+Resposta 1 :  Aparece com mais frequencia: uniq -d access.log
+Aparece com menos frequencia: uniq -u access.log
+
+Resposta 2 (qual comando você utilizou? ): Utilizei o comando uniq
+
+
+8 - Usando um comando linux, baixar o arquivo a seguir na sua 
+pasta principal http://evc-cit.info/cit052/grepdata.txt
+Resposta 1 (qual comando você utilizou?): wget http://evc-cit.info/cit052/grepdata.txt
+utilizei o comando wget
+
+9 - Com relação ao arquivo baixado no item anterior: 
+Imprima todas as linhas que contenham uma vogal (a, e, i, o ou u) 
+seguido de um único caractere seguido pela mesma vogal novamente. 
+Assim, encontrará "eve" ou "adam" mas não "vera". Dica: \( e \) 
+Resposta: cat grepdata.txt | grep "\e\" 
+
+
+10 - Listar todo o conteudo (todos os arquivos e pastas)
+a partir de sua pasta principal e direcionar a saida 
+para o segundo arquivo do item 4.
+Resposta (comando utilizado): ls > bruna2.txt  
+
